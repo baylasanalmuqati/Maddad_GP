@@ -1,4 +1,4 @@
-## Push a Folder to GitHub from the Command Line
+## Push an Existing Folder to GitHub from the Command Line
 
 Use this quick guide to upload an existing local folder to a GitHub repository with Git. Make sure Git is installed, you have a GitHub account, and you know the repository URL.
 
@@ -14,7 +14,7 @@ Use this quick guide to upload an existing local folder to a GitHub repository w
    ```
 4. Set the remote to your GitHub repo (replace the URL with yours):
    ```bash
-   git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPO.git
+   git remote add origin https://github.com/your-username/your-repo.git
    ```
 5. Push to the main branch (create it if needed):
    ```bash
@@ -22,4 +22,4 @@ Use this quick guide to upload an existing local folder to a GitHub repository w
    git push -u origin main
    ```
 
-If you cloned an existing repository instead, skip steps 2–4 and just run `git add .`, `git commit -m "your commit message"`, and `git push`.
+If you cloned an existing repository and made local changes, skip steps 2–4 and just run `git add .`, `git commit -m "your commit message"`, and `git push`.
